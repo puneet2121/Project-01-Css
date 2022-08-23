@@ -4,22 +4,41 @@ nav {
   justify-content: space-between;
   padding-top: 45px;
   padding-left: 55px;
+  
 }
 .list {
   display: flex;
-  margin-right: 155px;
+  margin-right: 45px;
+  
+  
 }
+.list :nth-child(1) { order: 1; }
+.list :nth-child(5) { order: 5; }
+.list :nth-child(3) { order: 4; }
+.list :nth-child(2) { order: 5; }
+.list :nth-child(4) { order: 5; }
+
 .list-item {
   display: flex;
-  margin-right: 35px;
-  font-size: 25px;
-  font-weight: 450;
-  font-family: monospace;
+  margin-top: 15px;
+  margin-right: 48px;
+  font-size: 29px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+.list li:first-child {
+  
+  left: 200px;
+  top: 0
+}
+.list-item:hover {
+  text-decoration: underline;
 }
 .button-group {
   display: flex;
   margin-right: 35px;
-  margin-top: 11px;
+  margin-top: 27px;
+  
 }
 .nav-button {
   background-color: white;
@@ -29,6 +48,8 @@ nav {
   width: 158px;
   border-width: 0.2ch;
   height: 40px;
+  color: gray;
+  
 }
 .search-icon {
   margin-right: 15px;
@@ -43,12 +64,12 @@ nav {
   margin-left: 180px;
 }
 .hero-container-right {
-  margin-top: -421px;
+  margin-top: -435px;
   margin-left: 520px;
 }
 .hero-heading {
   font-family: monospace;
-  font-size: 62px;
+  font-size: 60px;
 }
 .hero-description {
   width: 580px;
@@ -57,4 +78,35 @@ nav {
   font-size: 17px;
   margin-top: -5px;
   font-style: oblique;
+}
+.button-email {
+  margin-top:50px ;
+  margin-left: 180px;
+  width: 215px;
+  height: 35px;
+  font-size: 21px;
+  border-radius:15px ;
+  font-family: monospace;
+  background-color: white;
+}
+.button-join {
+  margin-top:70px ;
+  margin-left: 18px;
+  width: 125px;
+  height: 35px;
+  font-size: 21px;
+  border-radius:15px ;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+}
+.contact-heading {
+  color: gray;
+  font-size: 22px;
+  margin-left: 310px;
+  margin-top: 75px;
+}
+.icons {
+  margin-left: 268px;
+  margin-top: -10px;
 }
